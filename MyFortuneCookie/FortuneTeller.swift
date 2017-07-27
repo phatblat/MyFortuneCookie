@@ -19,6 +19,8 @@ class FortuneTeller {
     }
 
     func randomFortune() -> String {
-        return fortuneList.first!
+        let index = Int(arc4random_uniform(UInt32(fortuneList.count)))
+        print(index)
+        return fortuneList[index]
     }
 }
