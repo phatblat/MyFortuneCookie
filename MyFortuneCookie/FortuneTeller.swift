@@ -17,4 +17,8 @@ class FortuneTeller {
         fortuneList = NSArray(contentsOf: url) as! [String]
         print(fortuneList)
     }
+
+    func randomFortune() -> String {
+        return fortuneList.first!
+    }
 }

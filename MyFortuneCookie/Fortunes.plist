@@ -2,7 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>fortune 1</string>
-	<string>fortune 2</string>
+	<string>You will win the next competition you enter.</string>
+	<string>You will meet someone famous soon.
+</string>
+	<string>The weather on your next trip will be sunny.</string>
+	<string>You will have good luck for a month.</string>
+	<string>You will have the best day ever tomorrow.</string>
+	<string>The next person you meet will be very very nice.</string>
+	<string>You will be happy more often.</string>
+	<string>You will get to do your favorite activity.</string>
+	<string>You will become famous.</string>
+	<string>Someone will give you 10$.</string>
+	<string>Your dream will come true.</string>
+	<string>Something good will happen to you.</string>
+	<string>You will never be sad again.</string>
 </array>
 </plist>

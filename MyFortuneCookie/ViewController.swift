@@ -28,7 +28,7 @@ extension ViewController {
 extension ViewController {
     @IBAction func fortuneButtonWasTapped(_ sender: Any) {
         print("button tapped")
-        fortuneLabel.text = "button tapped"
+        fortuneLabel.text = fortuneTeller.randomFortune()
     }
 }
 
