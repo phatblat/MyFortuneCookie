@@ -14,6 +14,8 @@
 		F80C191D1F2A7EC400F9E6D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C191B1F2A7EC400F9E6D6 /* LaunchScreen.storyboard */; };
 		F80C19281F2A7EC400F9E6D6 /* MyFortuneCookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C19271F2A7EC400F9E6D6 /* MyFortuneCookieTests.swift */; };
 		F80C19331F2A7EC400F9E6D6 /* MyFortuneCookieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C19321F2A7EC400F9E6D6 /* MyFortuneCookieUITests.swift */; };
+		F80C19411F2A833C00F9E6D6 /* FortuneTeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C19401F2A833C00F9E6D6 /* FortuneTeller.swift */; };
+		F80C19431F2A838500F9E6D6 /* Fortunes.plist in Resources */ = {isa = PBXBuildFile; fileRef = F80C19421F2A838500F9E6D6 /* Fortunes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F80C192E1F2A7EC400F9E6D6 /* MyFortuneCookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFortuneCookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80C19321F2A7EC400F9E6D6 /* MyFortuneCookieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFortuneCookieUITests.swift; sourceTree = "<group>"; };
 		F80C19341F2A7EC400F9E6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80C19401F2A833C00F9E6D6 /* FortuneTeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTeller.swift; sourceTree = "<group>"; };
+		F80C19421F2A838500F9E6D6 /* Fortunes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Fortunes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				F80C19121F2A7EC400F9E6D6 /* AppDelegate.swift */,
-				F80C19141F2A7EC400F9E6D6 /* ViewController.swift */,
-				F80C19161F2A7EC400F9E6D6 /* Main.storyboard */,
 				F80C19191F2A7EC400F9E6D6 /* Assets.xcassets */,
-				F80C191B1F2A7EC400F9E6D6 /* LaunchScreen.storyboard */,
+				F80C19421F2A838500F9E6D6 /* Fortunes.plist */,
+				F80C19401F2A833C00F9E6D6 /* FortuneTeller.swift */,
 				F80C191E1F2A7EC400F9E6D6 /* Info.plist */,
+				F80C191B1F2A7EC400F9E6D6 /* LaunchScreen.storyboard */,
+				F80C19161F2A7EC400F9E6D6 /* Main.storyboard */,
+				F80C19141F2A7EC400F9E6D6 /* ViewController.swift */,
 			);
 			path = MyFortuneCookie;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			files = (
 				F80C191D1F2A7EC400F9E6D6 /* LaunchScreen.storyboard in Resources */,
 				F80C191A1F2A7EC400F9E6D6 /* Assets.xcassets in Resources */,
+				F80C19431F2A838500F9E6D6 /* Fortunes.plist in Resources */,
 				F80C19181F2A7EC400F9E6D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80C19411F2A833C00F9E6D6 /* FortuneTeller.swift in Sources */,
 				F80C19151F2A7EC400F9E6D6 /* ViewController.swift in Sources */,
 				F80C19131F2A7EC400F9E6D6 /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +526,7 @@
 				F80C19391F2A7EC400F9E6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80C193A1F2A7EC400F9E6D6 /* Build configuration list for PBXNativeTarget "MyFortuneCookieTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				F80C193C1F2A7EC400F9E6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80C193D1F2A7EC400F9E6D6 /* Build configuration list for PBXNativeTarget "MyFortuneCookieUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +544,7 @@
 				F80C193F1F2A7EC400F9E6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

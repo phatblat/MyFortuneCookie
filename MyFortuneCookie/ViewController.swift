@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var fortuneLabel: UILabel!
+    @IBOutlet fileprivate var fortuneLabel: UILabel!
+    fileprivate let fortuneTeller = FortuneTeller()
 }
 
 // MARK: - UIViewController
@@ -30,3 +31,4 @@ extension ViewController {
         fortuneLabel.text = "button tapped"
     }
 }
+
